@@ -30,4 +30,12 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1ms;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+        }
+    }
 }
